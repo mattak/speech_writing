@@ -18,4 +18,5 @@ func Execute() error {
 func init() {
 	RootCmd.AddCommand(RecordSplitCmd)
 	RootCmd.AddCommand(WatchRecognizeFilesCmd)
+	RootCmd.AddCommand(WatchUpdateEsaCmd)
 }
